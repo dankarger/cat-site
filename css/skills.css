@@ -1,0 +1,11 @@
+
+#skills .skills-content .skill-title{
+    /*background: var(--secondary-color);*/
+    background: var(--primary-color);
+    background: var(--light2-color);
+    background: radial-gradient(circle at 100px 100px, var(--primary-color),var(--dark-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px var(--dark-color) dashed;
+}

@@ -1,0 +1,56 @@
+/* About */
+
+#about .about-content {
+    /*background: var(--primary-color);*/
+    /*background: var(--secondary-color);*/
+    height:100%;
+    border-top:3px var(--dark-color) dotted;
+}
+
+#about .about-content .about-title{
+    /*background: var(--secondary-color);*/
+    background: var(--primary-color);
+    background: var(--light2-color);
+    background: radial-gradient(circle at 100px 100px, var(--light2-color),var(--dark-color));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px var(--dark-color) dashed;
+}
+#about .about-content .about-title h1{
+    color:var(--light-color);
+}
+#about .about-text-div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+}
+#about .about-text-div .text {
+    padding:1.5rem;
+    width:50%;
+
+}
+
+#about .about-text-div .about-img {
+    width:20rem;
+    height: 20rem;
+
+}
+
+#about .about-text-div .about-img img {
+    width: 100%;
+    border-radius: 50%;
+    border:4px var(--dark-color) solid;
+}
+
+#about .cat-about {
+    transform: scaleX(-1);
+    transition: transform 1.4s ease-in-out;
+    margin:1rem;
+}
+
+
+#about .cat-about:hover {
+    transform: scaleX(1);
+}
