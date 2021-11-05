@@ -18,7 +18,7 @@ html, body {
     background: var(--dark-color);
     /*background: radial-gradient(circle at 100px 100px, var(--light2-color),var(--light-color));*/
     height: 100vh;
-    scroll-snap-type: y mandatory;
+    /*scroll-snap-type: y mandatory;*/
 
 }
 #home, #about,#skills {
@@ -62,6 +62,11 @@ html, body {
 #contact {
     opacity: 0;
     animation: title 1s  forwards ease-in;
+}
+#contact .list {
+    opacity: 0;
+    transform: translateX(-1px);
+    animation: title 3s 3.4s forwards ease-in;
 }
 @keyframes title {
     to {
@@ -149,7 +154,7 @@ html, body {
 }
 
 
-/*about cat */
+/*contact */
 
 
 

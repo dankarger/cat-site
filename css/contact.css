@@ -1,22 +1,16 @@
 #contact {
-    /*padding: 12rem 12rem;*/
     width: 100%;
     height: 100%;
     display: flex;
-    /*flex-direction: column;*/
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    padding-top: 14rem;
 }
 #contact   .contact-title{
-    /*background: var(--secondary-color);*/
-    /*background: var(--primary-color);*/
-    /*background: var(--light2-color);*/
-    /*background: radial-gradient(circle at 100px 100px, var(--primary-color),var(--dark-color));*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    /*margin-left: 15rem;*/
     margin-right: 10rem;
     border-bottom: 2px var(--dark-color) dashed;
     width: 100%;
@@ -24,20 +18,67 @@
 
 #contact .contact-div {
     width: 100%;
+    height:100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
-/*#contact .contact-div span {*/
-/*    width:40%;*/
-/*    height:30%;*/
-/*}*/
+
 #contact .contact-img {
     width:50%;
     height: 50%;
-    /*transform: scale(0.5);*/
 }
+
 
 #contact .contact-h1 {
     transform: translateX(-3rem);
+}
+
+#contact .social-links {
+    /*position: relative;*/
+    display: flex;
+    justify-content: left;
+    /*width:100%;*/
+    /*height:100%;*/
+    z-index: 2000;
+
+}
+#contact .social-links a i{
+    width:100%;
+    height:100%;
+    /*position: absolute;*/
+    font-size:6rem;
+    color:var(--light-color);
+    text-shadow: 2px 2px var(--black-color);
+    margin-bottom: 3rem;
+    /*right:50rem;*/
+    /*top:0;*/
+    /*z-index: 2000;*/
+    transition: 0.4s ease-in;
+}
+
+#contact .social-links a i:hover {
+    color:var(--light2-color);
+    transform: scale(1.1);
+
+}
+#contact .social-links a .facebook {
+    width:100%;
+    height:100%;
+    top:10rem;
+    right:60rem;
+}
+#contact .list{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 300;
+    left:0;
+    top: 15rem;
 }
