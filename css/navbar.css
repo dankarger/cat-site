@@ -10,11 +10,11 @@
     width: 100%;
     height: 70px;
     position:fixed;
-    top:0;
-    padding: 0 30px;
+    top:0.7rem;
+    padding: 1rem  5rem;
     transition: 0.5s;
     overflow: visible;
-    z-index: 1000;
+    z-index: 100;
 
 }
 
@@ -72,13 +72,25 @@
 }
 
 #navbar .small-cat-1 {
-    transform: translateY(59px);
+    transform: translateY(-70px);
     transition: transform 4s  linear;
     position: relative;
     /*z-index: -100;*/
     color:var(--light-color);
 
+
 }
+/*#navbar .small-cat-1::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    background: var(--dark-color);*/
+/*    bottom: 0;*/
+/*    left:0;*/
+/*    width: 100%;*/
+/*    height:100%;*/
+/*    z-index: 20;*/
+
+/*}*/
 
 #navbar .logo .logo-main:hover {
     transform: rotate(25deg);
@@ -88,4 +100,3 @@
     transform: translateY(12px);
     /*transition: 6s  linear;*/
 }
-

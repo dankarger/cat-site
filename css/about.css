@@ -1,21 +1,34 @@
 /* About */
 
+
+#about {
+    margin-top:70px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 18rem 4rem;
+    height:100%;
+    /*z-index: 10000;*/
+}
 #about .about-content {
     /*background: var(--primary-color);*/
     /*background: var(--secondary-color);*/
+
     height:100%;
-    border-top:3px var(--dark-color) dotted;
+    /*border-top:3px var(--light2-color) dotted;*/
+    /*background: radial-gradient(circle at 100px 100px, var(--black-color),var(--dark-color));*/
 }
 
 #about .about-content .about-title{
     /*background: var(--secondary-color);*/
-    background: var(--primary-color);
-    background: var(--light2-color);
-    background: radial-gradient(circle at 100px 100px, var(--light2-color),var(--dark-color));
+    /*background: var(--primary-color);*/
+    /*background: var(--light2-color);*/
+    /*background: radial-gradient(circle at 100px 100px, var(--light2-color),var(--dark-color));*/
+    /*background: radial-gradient(circle at 100px 100px, var(--dark-color),var(--dark-color));*/
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px var(--dark-color) dashed;
+    /*border-bottom: 2px var(--light2-color) dashed;*/
 }
 #about .about-content .about-title h1{
     color:var(--light-color);
@@ -29,9 +42,17 @@
 #about .about-text-div .text {
     padding:1.5rem;
     width:50%;
+    color:var(--light-color);
+    opacity: 0.9;
 
 }
+#about .about-text-div .text p {
+    font-size: 2rem;
+    font-weight: 200;
+    text-shadow: 2px 2px  #131313;
+    line-height: 1.6;
 
+}
 #about .about-text-div .about-img {
     width:20rem;
     height: 20rem;
@@ -51,6 +72,11 @@
 }
 
 
-#about .cat-about:hover {
+#about .cat-about:hover,  .cat-title {
     transform: scaleX(1);
+    /*transform: translateX(10px);*/
+}
+
+#about .about-img {
+    filter: invert(66);
 }
