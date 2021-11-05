@@ -82,3 +82,13 @@
     left:0;
     top: 15rem;
 }
+
+#contact .icon {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+#contact .icon p {
+    padding-top:1rem;
+    color:var(--light-color);
+}

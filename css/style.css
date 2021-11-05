@@ -70,9 +70,9 @@ html, body {
 }
 @keyframes title {
     to {
-        transform: translateX(0);
+        transform: translateX(0) scale(1);
         opacity: 1;
-        transform: scale(1);
+        /*transform: ;*/
     }
 }
 

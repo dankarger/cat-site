@@ -67,3 +67,14 @@
 #about .about-img {
     filter: invert(66);
 }
+#about .founder-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#about .founder-pic{
+    /*width:100%;*/
+    border-radius: 100%;
+    box-shadow: 2px 2px var(--black-color);
+}
