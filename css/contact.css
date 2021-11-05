@@ -37,3 +37,7 @@
     height: 50%;
     /*transform: scale(0.5);*/
 }
+
+#contact .contact-h1 {
+    transform: translateX(-3rem);
+}
