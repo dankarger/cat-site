@@ -154,7 +154,44 @@ html, body {
 }
 
 
-/*contact */
+/*store loading page */
+
+#skills .skills-content {
+    opacity: 0;
+    transition: 1s linear;
+    animation: loading-page 0.7s 3s forwards ease-in;
+}
 
 
+
+@keyframes loading-page {
+to{
+    opacity: 1;
+}
+}
+#skills .box-2 {
+    height:100px;
+    width:100px;
+    border:5px solid transparent;
+    border-top-color: aqua;
+    border-radius: 100%;
+    position: absolute;
+    top:50rem;
+    left:50vw;
+    animation: spinner1 0.5s forwards linear;
+    animation-iteration-count:6;
+    z-index: 1;
+}
+
+@keyframes spinner1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(140deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
