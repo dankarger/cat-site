@@ -1,9 +1,11 @@
 #footer {
-    position: relative;
+    /*position: relative;*/
     background: var(--footer-color);
     /*opacity: 0.9;*/
     padding:3rem 3rem;
-    z-index: 22000;
+    /*z-index: 22000;*/
+    width: 100%;
+    flex: none;
 }
 
 #footer .footer-div {
@@ -46,7 +48,7 @@
     justify-content: center;
     align-items: flex-start;
 }
-#footer .footer-right a{
+#footer .footer-right a {
     color:var(--grey-color);
     font-size: 2rem;
     font-weight: 200;
@@ -65,7 +67,7 @@
     align-items: center;
 }
 
-#footer .footer-middle p{
+#footer .footer-middle p {
     color:var(--grey-color);
     font-size: 1.2rem;
     font-weight: 100;

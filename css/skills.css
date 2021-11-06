@@ -13,6 +13,7 @@
     position: relative;
     z-index: 100;
 }
+
 #skills .skills-content .skill-title{
     display: flex;
     flex-direction: column;
@@ -60,7 +61,7 @@
     box-shadow: -18px 5px 63px 5px rgba(168,166,168,0.67);
 }
 
-#skills .skills-content .img{
+#skills .skills-content .img {
     object-fit: cover;
     object-position: center;
     min-width: 100%;
@@ -74,7 +75,6 @@
     opacity: 0.3;
     transform: scale(1.02);
 }
-
 
 #skills .skills-content .div {
     position: relative;
@@ -101,7 +101,7 @@
     bottom:30%;
     left:40%;
     z-index:500;
-    transform: translateX(-18rem);
+    transform: translateX(-25rem);
     transition: 0.2s ease-in;
 }
 
