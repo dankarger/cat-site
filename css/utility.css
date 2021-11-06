@@ -27,33 +27,33 @@ ul {
 }
 
 h1{
-    font-size: 5rem;
+    /*font-size: 5rem;*/
+    font-size: calc(3rem + 2.6vw);
     font-weight: 800;
     margin:5px;
     letter-spacing: 5px;
 }
 
 h2 {
-    font-size: 4rem;
+    /*font-size: 4rem;*/
+    font-size: calc(2rem + 2vw);
     font-weight: 500;
     margin:5px;
     letter-spacing: 3px;
 }
 h3 {
-    font-size: 3rem;
+    /*font-size: 3rem;*/
+    font-size: calc(1.2rem + 1.2vw);
     font-weight: 500;
     margin:5px;
     letter-spacing: 2px;
 }
 h4 {
-    font-size: 2rem;
+    /*font-size: 2rem;*/
+    font-size: calc(1rem + 0.5vw);
     font-weight: 300;
     margin:5px;
     letter-spacing: 2px;
-}
-h1,h2,h3,h4 {
-    font-family: 'Roboto', sans-serif;
-    color:var(--light-color);
 }
 
 p {
@@ -62,6 +62,12 @@ p {
     letter-spacing: 1px;
 
 }
+h1,h2,h3,h4 {
+    font-family: 'Roboto', sans-serif;
+    color:var(--light-color);
+}
+
+
 
 strong {
     color:var(--red-color);

@@ -8,6 +8,7 @@
     align-items: center;
     padding-top:12rem;
 }
+
 #skills .skills-content {
     position: relative;
     z-index: 100;
@@ -24,8 +25,8 @@
 }
 #skills .skills-content .skill-title h1 {
     margin-bottom:1rem;
-
 }
+
 #skills .skills-div {
     width: 100%;
     display: flex;
@@ -41,16 +42,14 @@
     height:100%;
     padding:4rem;
     margin:auto;
-
 }
+
 #skills .gallery-container {
     width:70vw;
     height: 100%;
     background: rgba(20, 20, 20, 0.74);
-    /*background: white;*/
     background: var(--light-color);
     padding: 1rem;
-
 }
 
 #skills .skills-content .img {
@@ -76,21 +75,12 @@
     transform: scale(1.02);
 }
 
-/*add button to the product image */
-/*#skills .skills-content .parent  .img::after {*/
-/*    content: "";*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    bottom:10rem;*/
-/*    left:1rem;*/
-/*    z-index: 2000;*/
-/*    border: red 1px solid;*/
-/*}*/
+
 #skills .skills-content .div {
     position: relative;
     overflow: hidden;
 }
+
 /*buttons*/
 
 #skills .btn {
@@ -114,37 +104,33 @@
     transform: translateX(-18rem);
     transition: 0.2s ease-in;
 }
+
 #skills .skills-content .parent .div .btn:hover {
     opacity: 0.9;
     background: var(--secondary-color);
-    /*background: var(--red-color);*/
     transform: scale(1.02);
     border:black 1px solid;
     color:#131313;
 }
 
-/*#skills .skills-content .parent .div .btn:hover  .img{*/
-/*    opacity: 0.9;*/
-/*    transform: scale(1.02);*/
-/*}*/
-
-
 #skills .skills-content .div:hover  > .btn {
     transform: translateX(0);
-    /*background: red;*/
 }
+
 #skills .div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
+
 #skills .div p {
     font-weight: 200;
-    font-size: 1.5rem;
+    /*font-size: 1.5rem;*/
     font-family: Arial,sans-serif;
     color: #131313;
 }
+
 #skills .parent {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -152,6 +138,7 @@
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
 }
+
 .div1 { grid-area: 1 / 1 / 3 / 3; }
 .div2 { grid-area: 1 / 3 / 3 / 5; }
 .div3 { grid-area: 1 / 5 / 3 / 7; }
@@ -180,7 +167,6 @@
 }
 #skills .ps-store-div p{
     margin:1rem;
-    font-size: 2rem;
     color:var(--light-color);
 }
 
