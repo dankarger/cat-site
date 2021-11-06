@@ -61,9 +61,6 @@
     color:var(--light-color);
     text-shadow: 2px 2px var(--black-color);
     margin-bottom: 3.7rem;
-    /*right:50rem;*/
-    /*top:0;*/
-    /*z-index: 2000;*/
     transition: 0.3s ease-in;
 }
 

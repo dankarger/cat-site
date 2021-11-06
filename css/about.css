@@ -5,10 +5,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    /*padding: 18rem 4rem;*/
     padding-top: 18rem;
     min-height: 100%;
-    /*z-index: 10000;*/
 }
 
 #about .about-content {

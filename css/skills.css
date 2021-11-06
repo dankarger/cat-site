@@ -90,10 +90,8 @@
 #skills .btn {
     width:50%;
     height: 50px;
-    /*margin: auto;*/
     font-size: 1.5rem;
     font-weight: 500;
-    /*padding:1.5rem 2.2rem;*/
     background: var(--red-color);
     color:var(--light2-color);
     border-radius: 30px;
@@ -106,10 +104,8 @@
     top:20%;
     left:30%;
     z-index:500;
-    /*transform: translateX(-30rem);*/
     transition: 0.2s ease-in;
     opacity: 0;
-
     padding:1rem;
 }
 
@@ -131,13 +127,10 @@
     flex-direction: column;
     max-height: 100%;
     width:100%;
-    /*justify-content: center;*/
-    /*align-items: flex-start;*/
 }
 
 #skills .div p {
     font-weight: 200;
-    /*font-size: 1.5rem;*/
     font-family: Arial,sans-serif;
     color: #131313;
     font-size: 1.5rem;
@@ -169,21 +162,6 @@
 .div16 { grid-area: 7 / 7 / 9 / 9; }
 .div17 { grid-area: 9 / 1 / 11 / 3; }
 
-
-/*#skills .parent {*/
-/*    display: flex;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: space-evenly;*/
-/*    !*justify-content: center;*!*/
-/*    align-items: center;*/
-
-/*}*/
-/*#skills .div {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: center;*/
-/*}*/
-
 #skills .ps-store-div {
     display: flex;
     flex-direction: column;
@@ -192,6 +170,7 @@
     color:var(--light-color);
     padding:3rem;
 }
+
 #skills .ps-store-div p{
     margin:1rem;
     color:var(--light-color);

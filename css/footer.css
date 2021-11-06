@@ -1,11 +1,7 @@
 #footer {
-    /*position: relative;*/
     background: var(--footer-color);
-    /*opacity: 0.9;*/
     padding:3rem 3rem;
-    /*z-index: 22000;*/
     width: 100%;
-    /*flex: none;*/
 }
 
 #footer .footer-div {
@@ -20,12 +16,12 @@
     align-items: center;
     justify-content: space-between;
 }
+
 #footer .footer-left h3 {
     font-weight: 600;
     opacity:0.8;
     margin-bottom: 1rem;
     letter-spacing: 3px;
-
 }
 
 #footer .footer-icons{
@@ -33,21 +29,21 @@
     justify-content: space-around;
     align-items: center;
     border-top: dotted 3px rgba(183, 183, 183, 0.3);
-
 }
 
 #footer .footer-div .footer-icons i{
     color:var(--light2-color);
     font-size:2rem;
     margin:2rem 1rem
-
 }
+
 #footer .footer-right .footer-links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
+
 #footer .footer-right a {
     color:var(--grey-color);
     font-size: 2rem;

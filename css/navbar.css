@@ -21,7 +21,7 @@
 
 #navbar .navbar-container .navbar-menu-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 70%;
 }
@@ -29,21 +29,19 @@
 #navbar .navbar-container .navbar-menu-div ul{
     width:60%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
 
 }
 
-
 #navbar .navbar-container ul li a {
     width: 100%;
     color:whitesmoke;
-    /*font-size: 2rem;*/
     font-size: calc(1.3rem + 0.5vw);
     padding: 0 0.3rem;
+    margin:0 1.2rem;
     transition: all 0.7s ease-in;
-
 }
 
 #navbar .navbar-container ul li a:hover {
@@ -54,11 +52,12 @@
 #navbar .navbar-container ul li .current {
     transition: all 0.7s ease-in;
     color:var(--secondary-color);
-    /*letter-spacing: 1.3px;*/
 }
+
 #navbar .navbar-container ul li .current span {
     color:var(--red-color);
 }
+
     /*Logo*/
 #navbar .logo {
     width:20%;
@@ -69,10 +68,10 @@
     font-size: 3rem;
     color:whitesmoke;
 }
+
 #navbar .logo .logo-main{
     transition: transform 3s ease-in;
 }
-
 #navbar .small-cat-1 {
     transform: translate(-3rem ) rotate(-10deg);
     transition: transform 3s  ease-in;

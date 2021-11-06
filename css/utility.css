@@ -1,4 +1,5 @@
 /* colors */
+
 :root {
     --primary-color:#D4B499;
     --secondary-color:#F3D5C0;
@@ -27,7 +28,6 @@ ul {
 }
 
 h1{
-    /*font-size: 5rem;*/
     font-size: calc(3rem + 2.6vw);
     font-weight: 800;
     margin:5px;
@@ -35,21 +35,18 @@ h1{
 }
 
 h2 {
-    /*font-size: 4rem;*/
     font-size: calc(2rem + 2vw);
     font-weight: 500;
     margin:5px;
     letter-spacing: 3px;
 }
 h3 {
-    /*font-size: 3rem;*/
     font-size: calc(1.2rem + 1.2vw);
     font-weight: 500;
     margin:5px;
     letter-spacing: 2px;
 }
 h4 {
-    /*font-size: 2rem;*/
     font-size: calc(1rem + 0.5vw);
     font-weight: 300;
     margin:5px;
@@ -77,13 +74,11 @@ strong {
 }
 .rotate-180{
     transform: rotate(180deg);
-    /*animation-delay: 11s;*/
 }
 
 
-
-
 /*filler div*/
+
 .filler-div {
     height: 30vh;
     width: 100%;
@@ -110,14 +105,10 @@ strong {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*margin: auto;*/
     letter-spacing: 3px;
-    /*margin-top: 8rem;*/
     color:var(--light2-color);
     position: relative;
     z-index: 11;
-    /*padding-left:20%;*/
-    /*margin: auto;*/
     height: 40px;
 
 }
@@ -177,10 +168,8 @@ strong {
 
 }
 
-
-.delay {
-    animation-delay: 11s;
+.border-dots span {
+    color:var(--dark-color);
 }
-
 
 

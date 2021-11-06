@@ -1,16 +1,13 @@
 /*Navbar*/
 
 #navbar .navbar-container {
-
     width: 100%;
     height: 20%;
     position:relative;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    /*top:0.7rem;*/
     top:0;
-    /*padding: 1.3rem  5rem;*/
     transition: 0.5s;
     overflow: visible;
     border-bottom:var(--grey-color) 2px dotted;
@@ -30,19 +27,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    /*margin: auto;*/
     height:30%;
     width:100%;
 }
 
 #navbar .navbar-container ul li a {
     width: 100%;
+    font-size: 1.3rem;
     color:whitesmoke;
-    /*font-size: 2rem;*/
-    /*font-size: calc(1rem + 0.5vw);*/
     padding: 0;
     transition: all 0.7s ease-in;
-
 }
 
 #navbar .logo {
@@ -56,14 +50,18 @@
     font-size: 4rem;
     color:whitesmoke;
 }
+
 #navbar .small-cat-1{
     visibility: hidden;
 
 }
+
 /*Home*/
+
 #home {
     position: relative;
 }
+
 #home .home-content-div {
     padding: 0;
     flex-direction: column;
@@ -72,17 +70,18 @@
     height: 50%;
 }
 
-
 #home .home-content-div .main-title {
     display: flex;
     flex-direction: column;
     width: 100%;
 
 }
+
 #home .about-img{
     width: 100%;
     margin: auto;
 }
+
 #home .about-img > img{
     margin-top:1rem;
     height: 90%;
@@ -95,24 +94,28 @@
     margin-top:30px;
     padding-top: 5rem;
 }
+
 #about .about-text-div {
     padding: 0.2rem;
     justify-content: center;
     /*display: block;*/
     /*text-align: justify;*/
 }
+
 #about .about-text-div .text {
     padding:0.9rem;
     width:95%;
 }
+
 #about .founder-div{
-    /*margin-bottom: 10rem;*/
     width:50%;
 }
+
 #about .founder-pic {
     width:100%;
 
 }
+
 #about .founder-div p{
     font-size: 1rem;
     margin-top:2rem;
@@ -131,6 +134,7 @@
     /*border-top:1px dotted var(--grey-color);*/
 
 }
+
 #skills .skills-content .skill-title {
     justify-content: center;
     align-items: center;
@@ -139,8 +143,6 @@
 #skills .skills-content .skill-title h2{
     font-size: 1.7rem;
     text-align: center;
-    /*border-top:1px dotted var(--grey-color);*/
-    /*border-bottom:1px dotted var(--grey-color);*/
 }
 
 #skills .parent {
@@ -149,6 +151,7 @@
     justify-content: center;
     align-items: center;
 }
+
 #skills .parent .div {
     border-bottom: 1px dotted var(--grey-color);
     padding-bottom: 1rem;

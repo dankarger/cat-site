@@ -14,7 +14,7 @@
     padding:3rem;
     height:100%;
     width: 100%;
-    /*border-radius: 20px;*/
+
 }
 
 .home-content-div .main-title {
@@ -36,11 +36,3 @@
     text-shadow: 2px 2px  rgba(78, 78, 78, 0.55);
 
 }
-
-/*#home .profile-img-div .profile-img {*/
-/*    width:100%;*/
-/*    border-radius: 50%;*/
-/*    border:4px var(--dark-color) solid;*/
-/*    transform: rotate(-90deg);*/
-/*}*/
-

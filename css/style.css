@@ -95,10 +95,7 @@ html, body {
     height:80%;
     width:10%;
     position: absolute;
-    /*top:80%;*/
     left:10px;
-    /*padding-top: 20%;*/
-    /*margin-right: 20%;*/
 }
 
  .footprints i {
@@ -106,7 +103,6 @@ html, body {
     width:20%;
     color:transparent;
     margin-top:7rem;
-    /*margin-left: 10%;*/
 }
 
 .footprints .one {
@@ -158,11 +154,7 @@ to{
     opacity: 1;
 }
 }
-/*#skills .spinner-div {*/
-/*    animation: fade-out 8s forwards linear;*/
-/*    position: relative;*/
-/*    background: red;*/
-/*}*/
+
 
 #skills .box-2 {
     height:100px;
