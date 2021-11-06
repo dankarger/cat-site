@@ -178,7 +178,7 @@ to{
     border-top:8px solid  var(--light-color);
     border-radius: 100%;
     position: absolute;
-    top:50rem;
+    top:80vh;
     left:50vw;
     animation: spinner1 0.5s forwards linear;
     animation-iteration-count:6;
@@ -197,3 +197,15 @@ to{
     }
 }
 
+
+/*Little Cat animation hover */
+
+.cat-about {
+    transform: scaleX(-1);
+    transition: transform 1.4s ease-in-out;
+    margin:1rem;
+}
+
+.cat-about:hover,  .cat-title {
+    transform: scaleX(1);
+}

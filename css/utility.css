@@ -1,5 +1,3 @@
-
-
 /* colors */
 :root {
     --primary-color:#D4B499;
@@ -14,8 +12,6 @@
     --max-width: 1100px;
 }
 
-
-
 a {
     color: inherit;
     text-decoration: none;
@@ -29,6 +25,7 @@ ul {
     height:100%;
     border-bottom: 2px solid var(--primary-color)
 }
+
 h1{
     font-size: 5rem;
     font-weight: 800;
@@ -40,16 +37,19 @@ h2 {
     font-size: 4rem;
     font-weight: 500;
     margin:5px;
+    letter-spacing: 3px;
 }
 h3 {
     font-size: 3rem;
     font-weight: 500;
     margin:5px;
+    letter-spacing: 2px;
 }
 h4 {
     font-size: 2rem;
     font-weight: 300;
     margin:5px;
+    letter-spacing: 2px;
 }
 h1,h2,h3,h4 {
     font-family: 'Roboto', sans-serif;
@@ -59,6 +59,7 @@ h1,h2,h3,h4 {
 p {
     font-size: 2rem;
     font-weight: 200;
+    letter-spacing: 1px;
 
 }
 
@@ -71,6 +72,8 @@ strong {
 .rotate-180{
     transform: rotate(180deg);
 }
+
+
 
 /*filler div*/
 .filler-div {
@@ -90,7 +93,9 @@ strong {
 .my-2{margin:0 2rem;}
 .my-3{margin:0 3rem;}
 .mx-1{margin:1rem 0;}
+
 /*border dot animation */
+
 .border-dots {
     font-size: 12rem;
     display: flex;
@@ -127,7 +132,6 @@ strong {
     to {
         transform: translateX(1550px);
     }
-
 }
 
 .border-dots-h {
@@ -136,14 +140,10 @@ strong {
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*margin: auto;*/
     letter-spacing: 3px;
-    /*margin-top: 8rem;*/
     color:var(--light2-color);
     position: relative;
     z-index: 11;
-    /*padding-left:20%;*/
-    /*margin: auto;*/
     height: 40px;
     margin-right: 30rem;
     margin-top: 8.1rem;
@@ -154,7 +154,6 @@ strong {
 .border-dots-h::after {
     content: '';
     position: absolute;
-
     left:0;
     top:0;
     background: var(--dark-color);
@@ -171,34 +170,27 @@ strong {
 
 }
 
-
 .border-dots-curve {
     font-size: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    /*margin: auto;*/
     letter-spacing: 3px;
-    /*margin-top: 8rem;*/
     color:var(--light2-color);
     position: relative;
     z-index: 11;
-    /*padding-left:20%;*/
-    /*margin: auto;*/
     height: 40px;
     margin-right: 30rem;
     transform: rotate(90deg) skew(20deg) ;
-    /*transform: skew();*/
     border: dotted 5px #000;
     border-color: transparent transparent var(--light-color) transparent;
     border-radius: 0 0 260px 50%/600px;
-
 }
+
 .border-dots-curve::after {
     content: '';
     position: absolute;
-
     left:0;
     top:0;
     background: var(--dark-color);
@@ -208,7 +200,6 @@ strong {
     animation: border-dot 5s 2s forwards ease-in-out;
 }
 
-
 @keyframes border-dot-curve {
     to {
         transform: translateY(1550px);
@@ -216,16 +207,14 @@ strong {
 
 }
 
-
 .curvedarrow {
     height: 800px;
     width: 800px;
     background: transparent;
     position: relative;
     color:var(--light-color);
-    /*border-bottom: 5px solid black;*/
-    /*border-right: 5px solid black;*/
 }
+
 .curvedarrow:after {
     content: "";
     color:var(--light-color);
@@ -239,6 +228,7 @@ strong {
     border-radius: 50%;
     transform: rotate(45deg);
 }
+
 .half-circle {
     width:10px;
     height: 100vh;
@@ -249,6 +239,7 @@ strong {
     z-index: 10;
     font-size: 10rem;
 }
+
 .half-circle::before {
     content: '';
     position: absolute;

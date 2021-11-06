@@ -1,6 +1,4 @@
 /* About */
-
-
 #about {
     margin-top:70px;
     display: flex;
@@ -45,7 +43,6 @@
 #about .about-text-div .about-img {
     width:20rem;
     height: 20rem;
-
 }
 
 #about .about-text-div .about-img img {
@@ -54,19 +51,20 @@
     border:4px var(--dark-color) solid;
 }
 
-#about .cat-about {
-    transform: scaleX(-1);
-    transition: transform 1.4s ease-in-out;
-    margin:1rem;
-}
+/*#about .cat-about {*/
+/*    transform: scaleX(-1);*/
+/*    transition: transform 1.4s ease-in-out;*/
+/*    margin:1rem;*/
+/*}*/
 
-#about .cat-about:hover,  .cat-title {
-    transform: scaleX(1);
-}
+/*#about .cat-about:hover,  .cat-title {*/
+/*    transform: scaleX(1);*/
+/*}*/
 
 #about .about-img {
     filter: invert(66);
 }
+
 #about .founder-div{
     display: flex;
     flex-direction: column;
@@ -74,6 +72,7 @@
     align-items: center;
     margin-top:4rem;
 }
+
 #about .founder-pic{
     /*width:100%;*/
     border-radius: 100%;

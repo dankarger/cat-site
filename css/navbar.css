@@ -15,7 +15,7 @@
     padding: 1.3rem  5rem;
     transition: 0.5s;
     overflow: visible;
-    z-index: 100;
+    z-index: 10000;
 
 }
 
