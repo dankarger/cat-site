@@ -5,7 +5,7 @@
     padding:3rem 3rem;
     /*z-index: 22000;*/
     width: 100%;
-    flex: none;
+    /*flex: none;*/
 }
 
 #footer .footer-div {
@@ -42,7 +42,7 @@
     margin:2rem 1rem
 
 }
-#footer .footer-right .footer-links{
+#footer .footer-right .footer-links {
     display: flex;
     flex-direction: column;
     justify-content: center;

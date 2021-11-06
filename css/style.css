@@ -158,6 +158,11 @@ to{
     opacity: 1;
 }
 }
+/*#skills .spinner-div {*/
+/*    animation: fade-out 8s forwards linear;*/
+/*    position: relative;*/
+/*    background: red;*/
+/*}*/
 
 #skills .box-2 {
     height:100px;
@@ -169,6 +174,7 @@ to{
     top:80vh;
     left:50vw;
     animation: spinner1 0.5s forwards linear;
+
     animation-iteration-count:6;
     z-index: 1;
 }
@@ -182,6 +188,12 @@ to{
     }
     100% {
         transform: rotate(360deg);
+    }
+}
+
+@keyframes fade-out {
+    to {
+        opacity: 0;
     }
 }
 

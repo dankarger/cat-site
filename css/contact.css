@@ -7,6 +7,10 @@
     padding-top: 14rem;
 }
 
+#contact  .outer-div{
+
+
+}
 #contact   .contact-title{
     display: flex;
     flex-direction: column;
@@ -19,7 +23,7 @@
 
 #contact .contact-div {
     width: 100%;
-    height:100%;
+    height:90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +55,7 @@
     font-size:6rem;
     color:var(--light-color);
     text-shadow: 2px 2px var(--black-color);
-    margin-bottom: 3rem;
+    margin-bottom: 3.7rem;
     /*right:50rem;*/
     /*top:0;*/
     /*z-index: 2000;*/
@@ -79,13 +83,14 @@
     position: absolute;
     z-index: 300;
     left:0;
-    top: 15rem;
+    top: 19rem;
 }
 
 #contact .icon {
     display: flex;
     justify-content: center;
     align-items: start;
+    width:100%;
 }
 
 #contact .icon p {
