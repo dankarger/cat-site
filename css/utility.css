@@ -77,7 +77,9 @@ strong {
 }
 .rotate-180{
     transform: rotate(180deg);
+    /*animation-delay: 11s;*/
 }
+
 
 
 
@@ -148,10 +150,10 @@ strong {
     letter-spacing: 3px;
     color:var(--light2-color);
     position: relative;
-    z-index: 11;
+    z-index: 1;
     height: 40px;
     margin-right: 28rem;
-    margin-top: 8.1rem;
+    margin-top: 10px;
     transform: rotate(90deg);
     overflow: hidden;
 }
@@ -176,7 +178,9 @@ strong {
 }
 
 
-
+.delay {
+    animation-delay: 11s;
+}
 
 
 

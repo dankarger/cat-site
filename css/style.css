@@ -171,7 +171,7 @@ to{
     border-top:8px solid  var(--light-color);
     border-radius: 100%;
     position: absolute;
-    top:80vh;
+    top:85vh;
     left:50vw;
     animation: spinner1 0.5s forwards linear;
 

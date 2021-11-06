@@ -14,7 +14,7 @@
     z-index: 100;
 }
 
-#skills .skills-content .skill-title{
+#skills .skills-content .skill-title {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -88,11 +88,12 @@
 /*buttons*/
 
 #skills .btn {
-    width:40%;
-    margin: auto;
+    width:50%;
+    height: 50px;
+    /*margin: auto;*/
     font-size: 1.5rem;
     font-weight: 500;
-    padding:1.2rem 2.2rem;
+    /*padding:1.5rem 2.2rem;*/
     background: var(--red-color);
     color:var(--light2-color);
     border-radius: 30px;
@@ -102,11 +103,14 @@
 
 #skills .skills-content .parent .div .btn {
     position: absolute;
-    bottom:30%;
-    left:40%;
+    top:20%;
+    left:30%;
     z-index:500;
-    transform: translateX(-30rem);
+    /*transform: translateX(-30rem);*/
     transition: 0.2s ease-in;
+    opacity: 0;
+
+    padding:1rem;
 }
 
 #skills .skills-content .parent .div .btn:hover {
@@ -119,6 +123,7 @@
 
 #skills .skills-content .div:hover  > .btn {
     transform: translateX(0);
+    opacity: 1;
 }
 
 #skills .div {

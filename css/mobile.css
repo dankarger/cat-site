@@ -128,13 +128,19 @@
 
 #skills .skills-content .skill-title{
     padding:1rem;
-    border-top:1px dotted var(--grey-color);
+    /*border-top:1px dotted var(--grey-color);*/
 
 }
+#skills .skills-content .skill-title {
+    justify-content: center;
+    align-items: center;
+}
+
 #skills .skills-content .skill-title h2{
-    font-size: 2rem;
-    border-top:1px dotted var(--grey-color);
-    border-bottom:1px dotted var(--grey-color);
+    font-size: 1.7rem;
+    text-align: center;
+    /*border-top:1px dotted var(--grey-color);*/
+    /*border-bottom:1px dotted var(--grey-color);*/
 }
 
 #skills .parent {
@@ -243,7 +249,7 @@
 }
 
 #footer .footer-right a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     /*border-bottom: 1px var(--grey-color) dotted;*/
     padding:0.2rem 0;
 }
