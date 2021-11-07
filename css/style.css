@@ -46,7 +46,7 @@ html, body {
 #about .text h3{
     opacity: 0;
     transform: translateX(-20px) scale(0.98);
-    animation: title 4s 1s forwards ease-in;
+    animation: title 4s 1s forwards linear;
 }
 
 #contact .contact-title {
@@ -143,10 +143,10 @@ html, body {
 
 /*store loading page */
 
-#skills .skills-content {
+#skills .white-div {
     opacity: 0;
     transition: 1s linear;
-    animation: loading-page 0.7s 3s forwards ease-in;
+    animation: loading-page 0.2s 2.5s forwards ease-in;
 }
 
 @keyframes loading-page {
@@ -163,12 +163,11 @@ to{
     border-top:8px solid  var(--light-color);
     border-radius: 100%;
     position: absolute;
-    top:85vh;
-    left:50vw;
+    top:70%;
+    left:50%;
     animation: spinner1 0.5s forwards linear;
-
-    animation-iteration-count:6;
-    z-index: 1;
+    animation-iteration-count:5;
+    z-index: 12;
 }
 
 @keyframes spinner1 {
@@ -183,11 +182,6 @@ to{
     }
 }
 
-@keyframes fade-out {
-    to {
-        opacity: 0;
-    }
-}
 
 /*Little Cat animation hover */
 

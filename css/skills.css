@@ -24,6 +24,7 @@
     margin-bottom:5rem;
     padding:8rem;
 }
+
 #skills .skills-content .skill-title h1 {
     margin-bottom:1rem;
 }
@@ -36,13 +37,10 @@
 }
 
 #skills .white-div{
-    /*display: flex;*/
-    /*justify-content: center;*/
     background: var(--light-color);
     width:100vw;
     height:100%;
     padding:1rem;
-    /*margin:auto;*/
 }
 
 #skills .gallery-container {
@@ -58,23 +56,13 @@
     border:1px solid var(--grey-color);
     background: var(--light-color);
     box-shadow: -18px 5px 63px 5px rgba(168,166,168,0.67);
-/*#skills .skills-content .img {*/
-/*    object-fit: cover;*/
     object-fit: fill;
-    /*object-position: center;*/
     max-height: 100%;
     transition: all 0.2s linear ;
     position: relative;
     z-index: 100;
 }
 
-/*#skills .skills-content .img {*/
-/*max-height: 200px;*/
-/*min-width: 200px;*/
-/*object-fit: cover;*/
-/*!*vertical-align: bottom;*!*/
-/*    border: 3px red solid;*/
-/*}*/
 #skills .skills-content .img:hover {
     opacity: 0.3;
     transform: scale(1.02);

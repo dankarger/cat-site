@@ -171,6 +171,7 @@
     position: initial;
     transform: translateX(0);
     margin-top: 1rem;
+    width: 100%;
 }
 
 
@@ -228,7 +229,8 @@
     /* Animations */
 
 #skills .box-2 {
-    visibility: hidden;
+    /*visibility: hidden;*/
+    top:5%;
 
 }
 #skills .skills-content {
@@ -236,13 +238,9 @@
 
 }
 
-
     /*Footer*/
 
 #footer {
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*left: 0;*/
     padding: 0.5rem;
 }
 
