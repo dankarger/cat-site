@@ -163,7 +163,7 @@ to{
     border-top:8px solid  var(--light-color);
     border-radius: 100%;
     position: absolute;
-    top:70%;
+    top:100פס;
     left:50%;
     animation: spinner1 0.5s forwards linear;
     animation-iteration-count:5;
