@@ -129,6 +129,7 @@
 
 #skills {
     position: relative;
+    padding-top: 0;
 }
 
 #skills .skills-content .skill-title{
@@ -230,7 +231,7 @@
 
 #skills .box-2 {
     /*visibility: hidden;*/
-    top:5%;
+    top:8%;
 
 }
 #skills .skills-content {
