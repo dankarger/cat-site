@@ -79,6 +79,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 #about .border-dots-div h3,
 #about .border-dots-div h4{

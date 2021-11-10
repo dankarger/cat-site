@@ -8,7 +8,7 @@
 }
 
 #contact  .outer-div{
-
+    overflow: hidden;
 
 }
 #contact   .contact-title{

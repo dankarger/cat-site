@@ -46,6 +46,7 @@ h3 {
     margin:5px;
     letter-spacing: 2px;
 }
+
 h4 {
     font-size: calc(1rem + 0.5vw);
     font-weight: 300;
@@ -64,15 +65,13 @@ h1,h2,h3,h4 {
     color:var(--light-color);
 }
 
-
-
 strong {
     color:var(--red-color);
 }
-.rotate-90{
+.rotate-90 {
     transform: rotate(90deg);
 }
-.rotate-180{
+.rotate-180 {
     transform: rotate(180deg);
 }
 

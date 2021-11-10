@@ -16,6 +16,7 @@ html, body {
     color:#131313;
     background: var(--dark-color);
     min-height: 100vh;
+
 }
 
 #home, #about,#skills {
