@@ -81,10 +81,12 @@
     font-size: 1.5rem;
     font-weight: 500;
     background: var(--red-color);
+    /*background: limegreen;*/
     color:var(--light2-color);
     border-radius: 30px;
     text-align: center;
-    border:var(--black-color) 1px solid;
+    border:var(--dark-color) 3px solid;
+    line-height: 50px;
 }
 
 #skills .skills-content .parent .div .btn {
@@ -94,7 +96,7 @@
     z-index:500;
     transition: 0.2s ease-in;
     opacity: 0;
-    padding:1rem;
+
 
 }
 
