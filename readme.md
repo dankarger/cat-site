@@ -4,7 +4,7 @@
 this exercise was part of "AppleSeed" fullstack bootcamp course 
 And was a weekend assignment.
 (The content is made up and serve for learning purposes only).
-I tried to use what I learn in the course so far(HTML and CSS).
+I tried to use what I learn in the course so far (HTML and CSS).
 
 Part of the assigment was to deploy the site on netlify:   
 ##*https://mr-cat-site.netlify.app/*
